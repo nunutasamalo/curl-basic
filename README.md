@@ -1,5 +1,9 @@
 # curl-basic
+Trouble shoot connection with from terminal using curl
+curl -v http://example.com -o saved
+curl https://192.168.7.110:18030
 
+ 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $your_url);
 curl_setopt($ch, CURLOPT_FAILONERROR, true); // Required for HTTP error codes to be reported via our call to curl_error($ch)
